@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MM
+header:
+  image: "/assets/images/UndergroundNewz_header.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -58,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Underground Newz"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "The Underground Newz is your #1 source for the hard hitting content around town!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -99,8 +101,6 @@ defaults:
       comments: false
       share: false
       related: true
-    header:
-      image: "/assets/images/UndergroundNewz_header.png"
   # _pages
   - scope:
       path: "_pages"
