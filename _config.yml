@@ -6,20 +6,18 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process. 
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# you will see them accessed via {{ site.title }}, {{ site. email }}, and so on. 
 # You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# in the templates via {{ site.myvariable }}. 
 title: Underground Newz
-header:
-  image: /assets/images/UndergroundNewz_header.png
-email:
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
+  line in _config. yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: jcrash29
 minimal_mistakes_skin: dark
@@ -59,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Underground Newz"
+  name   :  "Underground Newz"
   avatar : "/assets/images/bio-photo.png"
   bio    : "The Underground Newz is your #1 source for the hard hitting content around town!"
   links:
@@ -67,35 +65,37 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://jcrash.com"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon:  "fab fa-fw fa-github"
       url: "https://github.com/jcrash29"
 
 footer:
-  links:
+  links: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
 
-defaults:
+defaults: 
   # _posts
   - scope:
       path: ""
       type: posts
-    values:
+    values: 
       layout: single
       author_profile: false
       read_time: false
       comments: false
       share: false
       related: true
+      header:
+        image: /assets/images/UndergroundNewz_header.png
   # _pages
-  - scope:
+  - scope: 
       path: "_pages"
       type: pages
-    values:
+    values: 
       layout: single
       author_profile: false
-    header:
-      image: /assets/images/UndergroundNewz_header.png
+      header:
+        image: /assets/images/UndergroundNewz_header.png
 
 category_archive:
   type: liquid
