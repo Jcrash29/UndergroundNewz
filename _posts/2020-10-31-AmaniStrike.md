@@ -5,7 +5,7 @@ categories:
 tags:
   - Stars Without Numbers
 header:
-  teaser: /assets/images/bio-photo.jpg
+  teaser: "/assets/images/bio-photo.jpg"
 excerpt: "Hundreds of local citizens remain out of work as Amani brings in replacement workers from other cities."
 ---
 
