@@ -87,7 +87,7 @@ defaults:
       related: true
       header:
         image: /assets/images/UndergroundNewz_header.png
-      teaser: "/assets/images/bio-photo.png"
+#      teaser: "/assets/images/bio-photo.png"
   # _pages
   - scope: 
       path: "_pages"
